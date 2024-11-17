@@ -1,9 +1,7 @@
 on: push
 jobs:
-   firstjob:
+   first-job:
    runs-on: windows-latest
      steps:
        -run: node --version
        -run: npm --version
-       -run: kubectl --version
-       -run: windows version
