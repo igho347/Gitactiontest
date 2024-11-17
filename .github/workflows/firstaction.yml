@@ -1,4 +1,4 @@
-name: firstaction
+name: first action
 on:
   push:
     branches:
