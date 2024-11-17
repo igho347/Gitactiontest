@@ -7,4 +7,8 @@ jobs:
        - run: node --version
        - run: npm --version
        - run: kubectl version
-       - run: kubectl get namespace
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+        - run: kubectl get namespace
+      
