@@ -9,3 +9,4 @@ jobs:
     steps:
        - run: node --version
        - run: npm --version
+       - run: windows --version
